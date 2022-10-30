@@ -1,13 +1,24 @@
 ---
 const today = new Date();
+import GitHubLogo from '@astropub/icons/GitHubLogo';
+import EnvelopeClosed from '@astropub/icons/EnvelopeClosed';
 ---
 
 <footer>
+	<div>
+	<h3>Connect with me</h3>
+	<GitHubLogo  size="60" />
+	<EnvelopeClosed  size="60" />
+	</div>
 	&copy; {today.getFullYear()} Chameng Vang. All rights reserved.
 </footer>
+
 <style>
 	footer {
 		padding: 25px;
 		text-align: center;
+	}
+	div {
+		text-align: left;
 	}
 </style>
