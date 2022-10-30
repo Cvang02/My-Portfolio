@@ -1,12 +1,8 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../config';
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
 	<nav>
 		<HeaderLink href="/">Home</HeaderLink>
 		<HeaderLink href="/blog">Project</HeaderLink>
@@ -18,9 +14,16 @@ import { SITE_TITLE } from '../config';
 
 <style>
 	header {
-		margin: 0em 0 2em;
+		padding: 10px;
+		margin: 10px;
+		opacity: 0.5; /* transparent background (delete later???) */
 	}
-	h2 {
-		margin: 0.5em 0;
+	nav {
+		text-align: end;
+		font-size: 30px;
+		position: sticky;
+	}
+	a:where(.astro-3EJL25VA):hover {
+		color: red;
 	}
 </style>
