@@ -65,3 +65,7 @@ blockquote {
 body {
 	background-color: #EDDCD2;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
