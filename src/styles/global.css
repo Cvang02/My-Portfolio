@@ -64,6 +64,9 @@ blockquote {
 
 body {
 	background-color: #EDDCD2;
+	background-image: url(/3q60.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 img {
 	max-width: 100%;
